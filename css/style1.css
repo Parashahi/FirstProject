@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Acme', sans-serif;
+}
+body{
+  background-image: url('images/bb.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+
+}
+.container {
+  max-width: 960px;
+}
+/*-----------Navbar-----------*/
+
+
+
+/*-----------First Content-----------*/
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-3{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-3 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+
+/*----------Facilities Section-----------*/   
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+ 
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/*---------Membership pricing--------*/
+
+.pricing-header {
+  max-width: 700px;
+}
+
+/*---------Footer Style--------*/
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+

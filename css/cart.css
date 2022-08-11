@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-family: 'Acme', sans-serif;
+	color: black;
+  }
+.container-fluid{
+	margin-top: 70px;
+}
+
+
+/*---------Cart Item Style--------*/
+.d-flex input{
+	width: 50px;
+	height: 20px;	
+	border-radius: 12px;
+	padding-left: 10px;
+	font-size: 15px;
+	margin-right: 10px;
+	border: 1px solid #ff523b;
+}
+input:focus{
+	outline: none;
+}
+.qty button{
+	padding: 0px;
+	height: 20px;
+}
+
+/*---------Other product Style--------*/
+.small-container{
+	max-width: 960px;
+	margin-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 150px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-3 img{
+	width: 100%;
+}
+.col-3:hover{
+	transform: translateY(-5px);
+}
+
+/*---------Footer Style--------*/
+.bi {
+  vertical-align: -.125em;
+  fill: grey;
+}
